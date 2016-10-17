@@ -1,0 +1,154 @@
+{
+  "basics": {
+    "name": "Sebastien Correaud",
+    "label": "Frontend Developer",
+    "picture": "",
+    "email": "sebastien.correaud@gmail.com",
+    "phone": "+33 7 83 01 41 51",
+    "website": "http://iscor.me",
+    "summary": "My name is Sebastien Correaud, Web IT Engineer in San Francisco (California) in the areas of open source and cross-platform.  I joined the CGI's Webfactory Team (formerly Logica) for analysis and development tasks within various web projects, with a technologic LAMP platform (eZ Publish, Drupal, Symfony). Subsequently I have contributed to the birth and evolution of a mobile development pole (iOS, HTML5 Cross-Platform, Android)  I also contribute to the evolution of the Webfactory team by achieving various missions like training junior staff, technical audits and technology watch.  Nowadays I am a Frontend Web Developer for 1001pharmacies. I'm specialized in AngularJS.",
+    "location": {
+      "address": "16A Rue Louis Braille",
+      "postalCode": "34070",
+      "city": "Montpellier",
+      "countryCode": "FR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "iTweetScor",
+        "url": "https://twitter.com/iTweetScor"
+      },
+      {
+        "network": "Github",
+        "username": "iGitScor",
+        "url": "https://github.com/iGitScor"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "1001Pharmacies",
+      "position": "Frontend Developer",
+      "website": "http://www.1001pharmacies.com",
+      "startDate": "2014-12-08",
+      "endDate": "",
+      "summary": "My work consists in the realization of web application (the front side) using AngularJS. In these projects I am in charge of technology choice, integration (HTML5, Bootstrap or material design) and implementation design (Sass / Less / Compass) I am responsible for the verification of the compatibility of the test pass unit, overall performance and accessibility. Projects are implemented Agile method. Sometimes I take the role of Scrum Master to carry out some projects. I have thus clarify the requirements and needs, analyze the feasibility and engineering design.",
+      "highlights": []
+    },
+    {
+      "company": "CGI",
+      "position": "IT Engineer",
+      "website": "",
+      "startDate": "2011-09",
+      "endDate": "2014-11",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Logica",
+      "position": "Analyst",
+      "website": "",
+      "startDate": "2010-06",
+      "endDate": "2010-09",
+      "summary": "",
+      "highlights": [
+        "PHP development",
+        "iOS & Android development"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Aile Papillon",
+      "position": "Web developer",
+      "website": "",
+      "startDate": "2014-10",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "SEO audit",
+        "Community management audit",
+        "New architecture development "
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Montpellier",
+      "area": "E-business",
+      "studyType": "BSc EAD",
+      "startDate": "2010",
+      "endDate": "2011",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Montpellier",
+      "area": "Computer Science",
+      "studyType": "BTEC Higher National Diploma",
+      "startDate": "2008",
+      "endDate": "2010",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "AngularJS",
+        "MeteorJS",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "",
+      "keywords": [
+        "Objective-C",
+        "Swift",
+        "Java (Android)",
+        "HTML Mobile first"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travels",
+      "keywords": [
+        "Europe",
+        "United States"
+      ]
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        "Basketball"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Mathieu Fortune",
+      "reference": "The projects in which we have to work together in 1001pharmacies allow me to make the human and professional qualities that Sébastien has. Its expertise in JavaScript, tools dev forehead and watchful eye on new trends in the environment are a real plus that I appreciate every day. His seriousness, his ability to listen and his energy are also a collaborator with whom it is pleasant to work."
+    }
+  ]
+}
