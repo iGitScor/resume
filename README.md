@@ -10,6 +10,12 @@ npm install
 npm run export
 ```
 
+### Other language
+
+```
+npm run export -- --lang=fr
+```
+
 ## Demo
 
 Go to the [resume page](http://iscor.me/resume)
