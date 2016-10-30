@@ -1,16 +1,23 @@
 {
   "name": "iscor-resume",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Full resume",
-  "main": "resume.json",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run export -s",
+    "test": "resume test",
+    "export": "node index.js",
+    "deploy": "node gh-deploy.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iGitScor/resume.git"
   },
-  "keywords": [],
+  "keywords": [
+    "resume",
+    "template",
+    "generator"
+  ],
   "author": "",
   "license": "MIT",
   "private": true,
@@ -19,16 +26,12 @@
   },
   "homepage": "https://github.com/iGitScor/resume#readme",
   "devDependencies": {
-    "resume-cli": "0.4.x",
-    "gh-pages": "0.11.x"
+    "gh-pages": "0.11.x",
+    "minimist": "1.2.x",
+    "mkdirp": "0.5.x",
+    "resume-cli": "0.4.x"
   },
   "dependencies": {
     "jsonresume-theme-spartan": "0.2.x"
-  },
-  "scripts": {
-    "start": "npm run export -s",
-    "test": "resume test",
-    "export": "node index.js",
-    "deploy": "node gh-deploy.js"
   }
 }

@@ -1,0 +1,154 @@
+{
+  "basics": {
+    "name": "Sebastien Correaud",
+    "label": "Développeur frontend",
+    "picture": "",
+    "email": "sebastien.correaud@gmail.com",
+    "phone": "+33 7 83 01 41 51",
+    "website": "http://iscor.me",
+    "summary": "Je m'appelle Sébastien Correaud, Ingénieur développement Web à Montpellier (Hérault) dans les domaines de l'open source et du cross-platform. J'ai intégré l'équipe de la WebFactory de la société CGI (anciennement Logica) pour des missions d'analyse et de développement au sein de divers projets Web, sur un socle technologique PHP (eZ Publish, Drupal, Symfony). Par la suite j'ai contribué à la naissance et l'évolution d'un pôle Mobilité (iOS, HTML5 Cross-Platform, Android) Je participe également à l'évolution du pôle développement Web en réalisant des missions diverses allant de formation de profils juniors à audit technique en passant par veille technologique. Aujourd'hui je suis un développeur frontend pour 1001pharmacies. Je suis spécialisé en AngularJS.",
+    "location": {
+      "address": "16A Rue Louis Braille",
+      "postalCode": "34070",
+      "city": "Montpellier",
+      "countryCode": "FR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "iTweetScor",
+        "url": "https://twitter.com/iTweetScor"
+      },
+      {
+        "network": "Github",
+        "username": "iGitScor",
+        "url": "https://github.com/iGitScor"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "1001Pharmacies",
+      "position": "Développeur frontend",
+      "website": "http://www.1001pharmacies.com",
+      "startDate": "2014-12-08",
+      "endDate": "",
+      "summary": "Mon travail consiste en la réalisation d'application web (côté front) en AngularJS. Sur ces projets je suis en charge du choix technologique, de l'intégration (HTML5, Bootstrap ou material design) et de la réalisation du design (Sass/Less/Compass)  Je suis responsable de la vérification de la compatibilité, du passage des tests unitaires, des performances globales et de l'accessibilité.  Les projets sont réalisés en méthode Agile. Il m'arrive de prendre le rôle de Scrum Master pour mener à bien certains projets. Je dois ainsi clarifier les exigences et les besoins, analyser la faisabilité et la conception technique.",
+      "highlights": []
+    },
+    {
+      "company": "CGI",
+      "position": "Ingénieur NTI",
+      "website": "",
+      "startDate": "2011-09-01",
+      "endDate": "2014-11-30",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Logica",
+      "position": "Analyste programmeur",
+      "website": "",
+      "startDate": "2010-06-20",
+      "endDate": "2010-09-01",
+      "summary": "",
+      "highlights": [
+        "PHP développement",
+        "iOS & Android développement"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Aile Papillon",
+      "position": "Développeur web",
+      "website": "",
+      "startDate": "2014-10-03",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Audit SEO",
+        "Audit Community management",
+        "DevOps"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Montpellier",
+      "area": "E-business",
+      "studyType": "BSc EAD",
+      "startDate": "2010-09-01",
+      "endDate": "2011-06-25",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Montpellier",
+      "area": "Computer Science",
+      "studyType": "BTEC Higher National Diploma",
+      "startDate": "2008-09-01",
+      "endDate": "2010-06-25",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "AngularJS",
+        "MeteorJS",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "",
+      "keywords": [
+        "Objective-C",
+        "Swift",
+        "Java (Android)",
+        "HTML Mobile first"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travels",
+      "keywords": [
+        "Europe",
+        "United States"
+      ]
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        "Basketball"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Mathieu Fortune",
+      "reference": "Les projets sur lesquels nous sommes amenés à travailler ensemble au sein de 1001pharmacies me permettent de réaliser les qualités humaines et professionnelles dont Sébastien dispose. Son expertise du JavaScript, des outils front dev et son oeil avisé sur les nouvelles tendances dans le milieu sont un réel plus que j’apprécie au quotidien. Son sérieux, son sens de l’écoute et son énergie en font également un collaborateur avec qui il est agréable de travailler. "
+    }
+  ]
+}

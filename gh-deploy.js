@@ -7,6 +7,7 @@ ghpages.publish(
   {
     src: [
       'index.html',
+      'fr/**.*',
     ],
     message: 'Automatic deployment update',
   },
