@@ -1,7 +1,6 @@
-Resume
-======
+# Resume
 
-> My full resume in the JSON-based jsonresume.org format.
+My full resume in the JSON-based [jsonresume.org](jsonresume.org) format.
 
 [![Build Status](https://travis-ci.org/iGitScor/resume.svg?branch=master)](https://travis-ci.org/iGitScor/resume)
 [![dependencies Status](https://david-dm.org/iGitScor/resume/status.svg)](https://david-dm.org/iGitScor/resume)
@@ -14,7 +13,7 @@ npm install
 npm run export
 ```
 
-### Other language
+### Other languages
 
 ```
 npm run export -- --lang=fr
