@@ -3,6 +3,8 @@ Resume
 
 > My full resume in the JSON-based jsonresume.org format.
 
+[![Build Status](https://travis-ci.org/iGitScor/resume.svg?branch=master)](https://travis-ci.org/iGitScor/resume)
+
 ## Getting started
 
 ```
