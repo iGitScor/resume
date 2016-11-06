@@ -1,11 +1,13 @@
 {
   "name": "iscor-resume",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Full resume",
   "main": "index.js",
   "scripts": {
     "start": "npm run export -s",
-    "test": "resume test",
+    "test": "npm run test:en && npm run test:fr",
+    "test:en": "cp src/en/resume.json resume.json && resume test && rimraf resume.json",
+    "test:fr": "cp src/fr/resume.json resume.json && resume test && rimraf resume.json",
     "export": "node index.js",
     "deploy": "node gh-deploy.js"
   },
@@ -18,7 +20,7 @@
     "template",
     "generator"
   ],
-  "author": "",
+  "author": "iGitScor <sebastien.correaud@gmail.com>",
   "license": "MIT",
   "private": true,
   "bugs": {
@@ -29,7 +31,8 @@
     "gh-pages": "0.11.x",
     "minimist": "1.2.x",
     "mkdirp": "0.5.x",
-    "resume-cli": "0.4.x"
+    "resume-cli": "0.4.x",
+    "rimraf": "2.5.x"
   },
   "dependencies": {
     "jsonresume-theme-spartan": "0.2.x"
