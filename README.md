@@ -4,6 +4,8 @@ Resume
 > My full resume in the JSON-based jsonresume.org format.
 
 [![Build Status](https://travis-ci.org/iGitScor/resume.svg?branch=master)](https://travis-ci.org/iGitScor/resume)
+[![dependencies Status](https://david-dm.org/iGitScor/resume/status.svg)](https://david-dm.org/iGitScor/resume)
+[![devDependencies Status](https://david-dm.org/iGitScor/resume/dev-status.svg)](https://david-dm.org/iGitScor/resume?type=dev)
 
 ## Getting started
 
