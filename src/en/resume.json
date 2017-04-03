@@ -6,7 +6,7 @@
     "email": "sebastien.correaud@gmail.com",
     "phone": "+33 7 83 01 41 51",
     "website": "http://iscor.me",
-    "summary": "My name is Sebastien Correaud, Web IT Engineer in San Francisco (California) in the areas of open source and cross-platform.  I joined the CGI's Webfactory Team (formerly Logica) for analysis and development tasks within various web projects, with a technologic LAMP platform (eZ Publish, Drupal, Symfony). Subsequently I have contributed to the birth and evolution of a mobile development pole (iOS, HTML5 Cross-Platform, Android)  I also contribute to the evolution of the Webfactory team by achieving various missions like training junior staff, technical audits and technology watch.  Nowadays I am a Frontend Web Developer for 1001pharmacies. I'm specialized in AngularJS.",
+    "summary": "My name is Sebastien Correaud, Web IT Engineer in Montpellier (France) in the areas of open source and cross-platform developments. I joined the CGI's Webfactory Team (formerly Logica) for analysis and development tasks within various web projects, with a technologic LAMP platform (eZ Publish, Drupal, Symfony). Subsequently I have contributed to the birth and evolution of a mobile development pole (iOS, HTML5 Cross-Platform, Android). I also contribute to the evolution of the Webfactory team by achieving various missions like training junior staff, technical audits and technology watch.  Nowadays I am a Frontend Web Developer for 1001pharmacies. I'm specialized in AngularJS and NodeJS.",
     "location": {
       "address": "16A Rue Louis Braille",
       "postalCode": "34070",
@@ -30,10 +30,18 @@
   "work": [
     {
       "company": "1001Pharmacies",
+      "position": "QA developer",
+      "website": "http://www.1001pharmacies.com",
+      "startDate": "2016-04-02",
+      "summary": "My work consists in the automatization of functional test implementing Selenium worker (build as Docker images) and also the automatization of the whole front workflow to optimize all kind of assets using Webpack. I developed Webpack plugins to fit with a complete workflow.",
+      "highlights": []
+    },
+    {
+      "company": "1001Pharmacies",
       "position": "Frontend Developer",
       "website": "http://www.1001pharmacies.com",
       "startDate": "2014-12-08",
-      "summary": "My work consists in the realization of web application (the front side) using AngularJS. In these projects I am in charge of technology choice, integration (HTML5, Bootstrap or material design) and implementation design (Sass / Less / Compass) I am responsible for the verification of the compatibility of the test pass unit, overall performance and accessibility. Projects are implemented Agile method. Sometimes I take the role of Scrum Master to carry out some projects. I have thus clarify the requirements and needs, analyze the feasibility and engineering design.",
+      "summary": "My work consists in the realization of web application (the front side) using AngularJS. In these projects I am in charge of technology choice, integration (HTML5, Bootstrap or material design) and implementation design (Sass / Less / Compass). I am responsible for the verification of the compatibility of the test pass unit, overall performance and accessibility. Projects are implemented Agile method. Sometimes I take the role of Scrum Master to carry out some projects. I have thus clarify the requirements and needs, analyze the feasibility and engineering design.",
       "highlights": []
     },
     {
@@ -103,8 +111,9 @@
         "CSS",
         "Javascript",
         "AngularJS",
-        "MeteorJS",
-        "Node.js"
+        "Node.js",
+        "Webpack",
+        "MeteorJS"
       ]
     },
     {
@@ -144,6 +153,14 @@
     }
   ],
   "references": [
+    {
+      "name": "Sabine Safi",
+      "reference": "Sébastien was involved and curious during the years when we worked together. He has been involved in front-end web development, as well as mobile evolutions, and is generally interested in web evolutions and their implications for the company."
+    },
+    {
+      "name": "Guilhem Marty",
+      "reference": "I had great pleasure in supervising Sebastien at 1001Pharmacies. Meticulous, fully aware of the UX issues of the projects entrusted to him and of great effectiveness he is a valuable asset in the realization of web projects and applications. I'd love to work with him again."
+    },
     {
       "name": "Mathieu Fortune",
       "reference": "The projects in which we have to work together in 1001pharmacies allow me to make the human and professional qualities that Sébastien has. Its expertise in JavaScript, tools dev forehead and watchful eye on new trends in the environment are a real plus that I appreciate every day. His seriousness, his ability to listen and his energy are also a collaborator with whom it is pleasant to work."
