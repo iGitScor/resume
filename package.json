@@ -28,11 +28,11 @@
   },
   "homepage": "https://github.com/iGitScor/resume#readme",
   "devDependencies": {
-    "gh-pages": "0.11.x",
+    "gh-pages": "^0.12",
     "minimist": "1.2.x",
     "mkdirp": "0.5.x",
     "resume-cli": "0.4.x",
-    "rimraf": "2.5.x"
+    "rimraf": "^2.5"
   },
   "dependencies": {
     "jsonresume-theme-spartan": "0.2.x"
