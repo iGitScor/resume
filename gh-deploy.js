@@ -6,6 +6,7 @@ ghpages.publish(
   path.join(__dirname),
   {
     src: [
+      'CNAME',
       'index.html',
       'fr/**.*',
     ],
