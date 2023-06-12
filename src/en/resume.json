@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Sebastien Correaud",
-    "label": "Frontend Developer",
+    "label": "Lead Developer",
     "picture": "",
     "email": "sebastien.correaud@gmail.com",
     "phone": "+33 7 83 01 41 51",
     "website": "http://iscor.me",
-    "summary": "My name is Sebastien Correaud, Web Developer in Montpellier (France). I joined the CGI's Webfactory Team (formerly Logica) for analysis and development tasks within various web projects using PHP frameworks (eZ Publish, Drupal, Symfony). Subsequently I have contributed to the birth and evolution of a mobile development pole (iOS, HTML5 Cross-Platform, Android). I also contributed to the evolution of the Webfactory team by achieving various missions like training junior staff, technical audits and technology watch. Nowadays I am a Fullstack Web Developer for 1001pharmacies. I'm specialized in Javascript (Node, React, ES6/ES7, Webpack, Babel). I'm also an active OSS contributor and project maintainer.",
+    "summary": "Motivated, teamwork-oriented, and full stack engineer having significant experience in Data analysis. I’m fascinated on how the technologies can unlock new possibilities. Possessing a Bachelors in business analytics and computer science, I build things to make life easier, full remote (from France, United Kingdom) or onsite. Native French speaker, also fluent in English.",
     "location": {
-      "address": "16A Rue Louis Braille",
-      "postalCode": "34070",
-      "city": "Montpellier",
-      "countryCode": "FR",
-      "region": ""
+      "address": "Paris",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": "France"
     },
     "profiles": [
       {
@@ -24,46 +24,93 @@
         "network": "Github",
         "username": "iGitScor",
         "url": "https://github.com/iGitScor"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "sebastiencorreaud",
+        "url": "https://www.linkedin.com/in/sebastiencorreaud/?locale=en_US"
       }
     ]
   },
   "work": [
     {
-      "company": "1001Pharmacies",
-      "position": "QA developer",
-      "website": "http://www.1001pharmacies.com",
-      "startDate": "2016-04-02",
-      "summary": "My work consists in the automatization of functional test implementing Selenium worker (build as Docker images) and also the automatization of the whole front workflow to optimize all kind of assets using Webpack. I developed Webpack plugins to fit with a complete workflow.",
-      "highlights": []
+      "company": "Leeway",
+      "position": "Fullstack developer",
+      "website": "https://www.getleeway.com",
+      "startDate": "2021-08",
+      "highlights": [
+        "GraphQL",
+        "NestJS",
+        "Salesforce.com development",
+        "MySQL",
+        "React.js"
+      ]
     },
     {
-      "company": "1001Pharmacies",
-      "position": "Frontend Developer",
-      "website": "http://www.1001pharmacies.com",
-      "startDate": "2014-12-08",
-      "summary": "My work consists in the realization of web application (the front side) using AngularJS. In these projects I am in charge of technology choice, integration (HTML5, Bootstrap or material design) and implementation design (Sass / Less / Compass). I am responsible for the verification of the compatibility of the test pass unit, overall performance and accessibility. Projects are implemented Agile method. Sometimes I take the role of Scrum Master to carry out some projects. I have thus clarify the requirements and needs, analyze the feasibility and engineering design.",
-      "highlights": []
+      "company": "Simplifield",
+      "position": "Lead tech",
+      "website": "https://www.simplifield.com",
+      "startDate": "2021-03",
+      "endDate": "2021-07",
+      "highlights": [
+        "❐ Facilitated workshops on the design of a new import system.",
+        "❐ Performed a study on a redesign of the database using a DDD approach.",
+        "❐ Managed an Impact Team (Ukraine/France)"
+      ]
     },
     {
-      "company": "CGI",
-      "position": "IT Engineer",
-      "website": "",
-      "startDate": "2011-09-01",
-      "endDate": "2014-11-30",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "company": "Logica",
-      "position": "Analyst",
-      "website": "",
-      "startDate": "2010-06-20",
-      "endDate": "2010-09-01",
+      "company": "You2You (Yper)",
+      "position": "Fullstack developer + Product Owner",
+      "website": "https://www.yper.fr",
+      "startDate": "2017-12",
+      "endDate": "2020-11",
       "summary": "",
       "highlights": [
-        "PHP development",
-        "iOS & Android development"
+        "❐ Designed and developed digital solutions for stakeholders' needs in adequation with the business",
+        "❐ Coached junior colleagues as much in product creation (Agile method) as in technical learning",
+        "❐ Automatized quality control with a large panel of tests — TDD, unit tests, E2E tests, visual regression tests…",
+        "❐ Utilized MySQL and dashboard/visualization toolsets for data intelligence and analysis. ",
+        "❐ Converted data into actionable insights by predicting and modeling future outcomes. — Metabase",
+        "___________________________________________________",
+        "Created products using Lean Startup and Agile methods, product owner (January to August 2019)"
       ]
+    },
+    {
+      "company": " University of Montpellier",
+      "position": "Guest lecturer",
+      "website": "",
+      "startDate": "2019-02",
+      "endDate": "2021-03",
+      "summary": "",
+      "highlights": [
+        "During my lectures at the University of Science at Montpellier, I taught to both bachelor and master students. I employed different supports such as powerpoint, group activities and concrete use of the tools. Here are the different goals achieved during the courses:",
+        "❐ For the Assistant project manager bachelor students and the master students, the aim was to present a global approach of the Agile method and implementing the method's techniques.",
+        "❐ For the e-business bachelor student, the objectives were to strengthen their skills in functional testings and the automation of repetitive actions."
+      ]
+    },
+    {
+      "company": "1001Pharmacies",
+      "position": "Fullstack developer + QA engineer",
+      "website": "http://www.1001pharmacies.com",
+      "startDate": "2014-12",
+      "endDate": "2017-11",
+      "summary": "",
+      "highlights": [
+        "❐ Automatized functional testing in an environment close to the production — cypress.io, Docker, k6",
+        "❐ Created toolsets for performance optimization for high affluence marketplace (users, 1M€ / month)",
+        "❐ Designed and developed applications for internal needs (data visualization, tripartite billing tool) or business needs (marketplace) with recent technologies — Node.js, ES6, React & Angular",
+        "❐ Automatized quality control with a large panel of tests — TDD, unit tests, E2E tests, accessibility tests",
+        "❐ Animated agile workshops or team building. Scrum master of the product team"
+      ]
+    },
+    {
+      "company": "CGI (formerly Logica)",
+      "position": "IT Engineer",
+      "website": "https://www.cgi.com",
+      "startDate": "2010-06-20",
+      "endDate": "2014-11-30",
+      "summary": "Designed and developed mobile and web applications (PHP, JavaScript, both iOS and Android apps)",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -72,30 +119,34 @@
       "position": "Web developer",
       "website": "",
       "startDate": "2014-10-03",
+      "endDate": "2022-01",
       "summary": "",
       "highlights": [
-        "SEO audit",
-        "Community management audit",
-        "New architecture development "
+        "Aile Papillon is an association that helps patients with eating disorders and their families. This association is the initiative of the caregivers and patients of the unit of treatment of the TCA of the Clinic Stella (group Oc Santé), located at Vérargues in Hérault",
+        "❐ Design and develop new architecture (website, donation platform, secured system)",
+        "❐ SEO recommendations and Community management coaching"
+      ]
+    },
+    {
+      "organization": "Hack La Crise",
+      "position": "Fullstack developer + designer",
+      "website": "https://twitter.com/hacklacrise",
+      "startDate": "2020-03",
+      "endDate": "2020-06",
+      "summary": "Hackathon about the fight against the covid-19",
+      "highlights": [
+        "Project leader for caregiver support project, development and UI/UX design",
+        "Member of the project “Des vélos pour l’hosto”, fullstack developer — Node.js, React, AWS"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Montpellier",
-      "area": "E-business",
-      "studyType": "BSc EAD",
-      "startDate": "2010-09-01",
-      "endDate": "2011-06-25",
-      "gpa": "",
-      "courses": []
-    },
-    {
-      "institution": "University of Montpellier",
-      "area": "Computer Science",
-      "studyType": "BTEC Higher National Diploma",
+      "area": "Computer Science & E-business",
+      "studyType": "BTEC Higher National Diploma + BSc EAD",
       "startDate": "2008-09-01",
-      "endDate": "2010-06-25",
+      "endDate": "2011-06-25",
       "gpa": "",
       "courses": []
     }
@@ -105,25 +156,39 @@
   "skills": [
     {
       "name": "Web Development",
-      "level": "",
+      "level": "master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "AngularJS",
-        "Node.js",
-        "Webpack",
-        "MeteorJS"
+        "HTML + CSS",
+        "Javascript (Angular, React, Node.js)",
+        "Test (jest, cypress.io, selenium, loadimpact)"
+      ]
+    },
+    {
+      "name": "Data",
+      "level": "advanced",
+      "keywords": [
+        "Python, flask",
+        "Metabase, MongoDB, MySQL"
       ]
     },
     {
       "name": "Mobile Development",
-      "level": "",
+      "level": "intermediate",
       "keywords": [
         "Objective-C",
         "Swift",
         "Java (Android)",
         "HTML Mobile first"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "advanced",
+      "keywords": [
+        "Docker",
+        "nginx",
+        "AWS",
+        "CI/CD"
       ]
     }
   ],
@@ -134,7 +199,7 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "C1"
     }
   ],
   "interests": [
@@ -142,6 +207,7 @@
       "name": "Travels",
       "keywords": [
         "Europe",
+        "United Arab Emirates",
         "United States"
       ]
     },
@@ -154,16 +220,24 @@
   ],
   "references": [
     {
-      "name": "Sabine Safi",
-      "reference": "Sébastien was involved and curious during the years when we worked together. He has been involved in front-end web development, as well as mobile evolutions, and is generally interested in web evolutions and their implications for the company."
+      "name": "Sabine Safi (CEO) - 1001pharmacies",
+      "reference": "Sebastien was involved and curious during the years when we worked together. He has been involved in front-end web development, as well as mobile evolutions, and is generally interested in web evolutions and their implications for the company."
     },
     {
-      "name": "Guilhem Marty",
+      "name": "Guilhem Marty (CTO) - 1001pharmacies",
       "reference": "I had great pleasure in supervising Sebastien at 1001Pharmacies. Meticulous, fully aware of the UX issues of the projects entrusted to him and of great effectiveness he is a valuable asset in the realization of web projects and applications. I'd love to work with him again."
     },
     {
-      "name": "Mathieu Fortune",
-      "reference": "The projects in which we have to work together in 1001pharmacies allow me to make the human and professional qualities that Sébastien has. Its expertise in JavaScript, tools dev forehead and watchful eye on new trends in the environment are a real plus that I appreciate every day. His seriousness, his ability to listen and his energy are also a collaborator with whom it is pleasant to work."
+      "name": "Laurent Cuenet (CTO) - You2You",
+      "reference": "Pragmatic agile and exemplary quality. I had the pleasure of working with Sebastien for 1 year during which he transmitted his passion for agile methods. Sebastien makes a huge difference for our team and its productivity. He is constantly looking for efficiency with the automation of all production processes and deployment. A great sensitivity of UX and frontend experience provide Sebastien a proactivity to improve the product. I hope to work with Sebastien again on a new project."
+    },
+    {
+      "name": "Mathieu Fortune (Frontend developer) - 1001pharmacies",
+      "reference": "The projects in which we have to work together in 1001pharmacies allow me to make the human and professional qualities that Sebastien has. Its expertise in JavaScript, tools dev forehead and watchful eye on new trends in the environment are a real plus that I appreciate every day. His seriousness, his ability to listen and his energy are also a collaborator with whom it is pleasant to work."
+    },
+    {
+      "name": "Lou Husson (Product Owner) - You2You",
+      "reference": "Sebastien is a rare developer. I had the opportunity to work with a lot of developers, especially with Epitech, and Sebastien's profile is precious. He understands the impact and the multidisciplinarity of his developments, which allow him to always propose an smart code adapted to the initial problematic. Even when a ticket may lack specificity, Sebastien always challenges the Product Owner to optimize the specificities with kindness."
     }
   ]
 }
