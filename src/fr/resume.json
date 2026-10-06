@@ -1,25 +1,16 @@
 {
   "basics": {
     "name": "Sebastien Correaud",
-    "label": "Lead developer",
-    "picture": "",
+    "label": "Engineering Manager, hands-on",
     "email": "sebastien.correaud@gmail.com",
     "phone": "+33 7 83 01 41 51",
-    "website": "http://iscor.me",
-    "summary": "Motivé, adepte du travail en équipe, développeur fullstack ayant une expérience significative en tant qu'analyste de données. Je suis fasciné de voir à quel point la terchnologie permet de débloquer les potentiels. Titulaire d'une licence en analyse e-business et en informatique, je mène à bien des projets, en télétravail (en France, Royaume-Uni) et en équipe. Je parle français et anglais.",
+    "url": "http://iscor.me",
+    "summary": "Engineering manager hands-on. Je dirige une squad produit chez Heropay et je continue à coder. Parcours en tests, qualité et analyse de données. Je mène à bien des projets, en télétravail (France, Royaume-Uni) ou sur site.",
     "location": {
       "address": "Paris",
-      "postalCode": "",
-      "city": "",
-      "countryCode": "",
       "region": "France"
     },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "iTweetScor",
-        "url": "https://twitter.com/iTweetScor"
-      },
       {
         "network": "Github",
         "username": "iGitScor",
@@ -34,181 +25,205 @@
   },
   "work": [
     {
-      "company": "Leeway",
-      "position": "Développeur fullstack",
-      "website": "https://www.getleeway.com",
-      "startDate": "2021-08",
+      "name": "Heropay",
+      "position": "Staff Engineer",
+      "description": "Fintech",
+      "location": "Paris",
+      "startDate": "2025-01",
+      "summary": "Promu de développeur fullstack senior à Staff Engineer au bout de six mois",
       "highlights": [
-        "GraphQL",
-        "NestJS",
-        "Développement Salesforce.com",
-        "MySQL",
-        "React.js"
+        "Manager de 9 ingénieurs au plus fort de l'équipe. Fusion de deux squads en une seule sous ma supervision",
+        "Strong Customer Authentication (DSP2) et lutte contre la fraude : intégration de Signicat, 2 millions de challenges, plus de 20 000 utilisateurs enrôlés",
+        "Tunnel de l'inscription à l'activation : onboarding refondu, inscriptions x10 en 2025, délai d'activation médian passé de plus de 4 jours à moins de 12 heures",
+        "Poursuite et finalisation de la migration de la facturation de Hyperline vers un système interne",
+        "Socle technique : tâches longues, files SQS, monitoring, tests E2E fiables, migrations techniques",
+        "Mise en place des agents de code dans le quotidien de la squad"
       ]
     },
     {
-      "company": "Simplifield",
-      "position": "Lead tech",
-      "website": "https://www.simplifield.com",
+      "position": "Pause professionnelle",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "Douze mois de voyage"
+    },
+    {
+      "name": "Tomorro (ex-Leeway)",
+      "position": "Développeur fullstack senior",
+      "url": "https://www.tomorro.com",
+      "description": "LegalTech",
+      "location": "Paris",
+      "startDate": "2021-08",
+      "endDate": "2023-10",
+      "summary": "Jeune entreprise SaaS",
+      "highlights": [
+        "Certification ISO 27001 : contribution, avec une part importante sur les contrôles (Salesforce)",
+        "Intégration du CRM Salesforce"
+      ]
+    },
+    {
+      "name": "Simplifield",
+      "position": "Tech lead",
+      "url": "https://www.simplifield.com",
       "startDate": "2021-03",
       "endDate": "2021-07",
       "highlights": [
-        "❐ Animé des ateliers sur la conception d'un nouveau système d'importation.",
-        "❐ Réalisé une étude sur la refonte de la base de données à l'aide d'une approche DDD.",
-        "❐ Piloté une Impact Team (développeurs en Ukraine et en France)"
+        "Piloté une Impact Team de 5 développeurs (Ukraine et France)",
+        "Animé des ateliers sur la conception d'un nouveau système d'importation."
       ]
     },
     {
-      "company": "You2You (Yper)",
-      "position": "Développeur Fullstack + Product Owner",
-      "website": "https://www.yper.fr",
+      "name": "You2You (Yper)",
+      "position": "Lead developer + Data analyst",
+      "url": "https://www.yper.fr",
+      "location": "Télétravail complet depuis Montpellier et Oxford",
       "startDate": "2017-12",
       "endDate": "2020-11",
-      "summary": "",
+      "summary": "Suivi en temps réel, performances de la plateforme et analyse de données",
       "highlights": [
-        "❐ Conçu et dévéloppé des solutions numériques répondant aux besoins des parties prenantes en adéquation avec les enjeux stratégiques de l'entreprise",
-        "❐ Accompagné des profils juniors tant dans la création d'un produit (méthode agile) que dans les aspects techniques",
-        "❐ Automatisé le contrôle qualité avec différents types et approches de tests (TDD, tests unitaires, tests E2E, test de régression visuelle…)",
-        "___________________________________________________",
-        "⨁ Utilisation de la donnée en indicateurs de décisions",
-        "⨁ Exploitation de modèle de donnée en dashboard et outils de visualisation (Metabase) dans des fins de prédiction et d'intelligence artificielle.",
-        "___________________________________________________",
-        "Product Owner (Janvier à Août 2019)"
-      ]
+        "Accompagné des profils juniors tant dans la création d'un produit (méthode agile) que dans les aspects techniques",
+        "Product Owner (janvier à août 2019)",
+        "Automatisé le contrôle qualité avec différents types et approches de tests (TDD, tests unitaires, tests E2E, tests de régression visuelle…)"
+      ],
+      "pdfHighlights": 2
     },
     {
-      "company": " Université de Montpellier",
+      "name": "Université de Montpellier",
       "position": "Conférencier",
-      "website": "",
       "startDate": "2019-02",
       "endDate": "2021-03",
-      "summary": "",
-      "highlights": [
-        "❐ Licence Assitant chef de projet et master: présenter une approche théorique de la méthode Agile et de mettre en œuvre les fondamentaux lors d'ateliers",
-        "❐ Licence e-business: renforcer leurs compétences en matière de tests fonctionnels et d'automatisation des actions répétitives."
-      ]
+      "highlights": [],
+      "summary": "Cours de méthode agile et de QA en licence et en master"
     },
     {
-      "company": "1001Pharmacies",
-      "position": " Développeur Fullstack + responsable QA ",
-      "website": "http://www.1001pharmacies.com",
+      "name": "1001Pharmacies",
+      "position": "Développeur Fullstack + responsable QA",
+      "url": "http://www.1001pharmacies.com",
+      "location": "Montpellier",
       "startDate": "2014-12-08",
       "endDate": "2017-11",
-      "summary": "",
+      "summary": "Refonte complète d'une marketplace à forte audience",
       "highlights": [
-        "❐ Automatisation de tests fonctionnel en environnement identique à la production — cypress.io, Docker, k6",
-        "❐ Création d'outils d'optimisation des performance pour une marketplace à forte volumétrie (utilisateurs, 1M€ par mois)",
-        "❐ Conception et développement d'applications pour des besoins internes (visualisation de donnée, outil de facturation tripartite) ou du besoin business (marketplace) utilisant des technologies récentes — Node.js, ES6, React & Angular",
-        "❐ Automatisation du contrôle qualité avec un large éventail d'outils — TDD, unit tests, E2E tests, accessibility tests",
-        "❐ Animation d'atelier agile or de team building. Scrum master de l'équipe produit"
-      ]
+        "Animation d'atelier agile ou de team building. Scrum master de l'équipe produit",
+        "Création d'outils d'optimisation des performances pour une marketplace à forte volumétrie (utilisateurs, 1M€\u00a0par\u00a0mois)",
+        "Co-organisation d’un meetup UX avec ateliers et conférences"
+      ],
+      "pdfHighlights": 0
     },
     {
-      "company": "CGI (+ Logica)",
+      "name": "CGI (+ Logica)",
       "position": "Ingénieur NTI",
-      "website": "",
+      "location": "Montpellier",
       "startDate": "2010-06-20",
       "endDate": "2014-11-30",
-      "summary": "Conception et développement d'applications mobile et web (PHP, JavaScript, iOS et Android)",
-      "highlights": []
+      "summary": "Conception et développement d'applications mobiles et web (PHP, JavaScript, iOS et Android)",
+      "highlights": [
+        "Audits de sécurité"
+      ],
+      "pdfHighlights": 0
     }
   ],
   "volunteer": [
     {
       "organization": "Aile Papillon",
-      "position": "Développeur web",
-      "website": "",
+      "position": "Développeur fullstack",
       "startDate": "2014-10-03",
-      "endDate": "2022-01",
-      "summary": "",
+      "summary": "Aile Papillon est une Association d'aide aux patients atteints de Troubles du Comportement Alimentaire et à leur famille.",
       "highlights": [
-        "Aile Papillon est une Association d'aide aux patients atteints de Troubles du Comportement Alimentaire et à leur famille. Cette association est à l'initiative des soignants et patients de l'unité de traitement des TCA de la Clinique Stella (groupe Oc Santé), située à Vérargues dans l'Hérault",
-        "❐ Design et développement d'un nouveau site",
-        "❐ Recommandation SEO et gestion des réseaux sociaux"
+        "Design et développement d'un nouveau site"
       ]
     },
     {
       "organization": "Hack La Crise",
       "position": "Développeur fullstack + designer",
-      "website": "https://twitter.com/hacklacrise",
+      "url": "https://twitter.com/hacklacrise",
       "startDate": "2020-03",
       "endDate": "2020-06",
       "summary": "Hackathon pour lutter contre la covid-19",
       "highlights": [
-        "Chef de projet pour le projet de soutien aux aidants, développement et conception UI/UX.",
-        "Membre du projet “Des vélos pour l’hosto”, développeur fullstack — Node.js, React, AWS"
+        "Chef de projet pour le projet de soutien aux aidants, développement et conception UI/UX."
       ]
     }
   ],
   "education": [
     {
       "institution": "Université de Montpellier",
-      "area": "Informatique et E-business",
-      "studyType": "DUT + Licence professionnelle",
-      "startDate": "2008-09-01",
-      "endDate": "2011-06-25",
-      "gpa": "",
-      "courses": []
+      "area": "Développement d’applications e-business",
+      "studyType": "Licence professionnelle",
+      "startDate": "2010",
+      "endDate": "2011"
+    },
+    {
+      "institution": "Université de Montpellier",
+      "area": "Informatique",
+      "studyType": "DUT",
+      "startDate": "2008",
+      "endDate": "2010",
+      "webOnly": true
     }
   ],
   "awards": [],
   "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "master",
+      "name": "Leadership",
       "keywords": [
-        "HTML + CSS",
-        "Javascript (Angular, React, Node.js)",
-        "Test (jest, cypress.io, selenium, loadimpact)"
+        "Management d'équipe",
+        "Recrutement",
+        "Pilotage de squad",
+        "Scrum master",
+        "Product owner"
       ]
     },
     {
-      "name": "Data",
-      "level": "advanced",
+      "name": "Développement",
       "keywords": [
-        "Python, flask",
-        "Metabase, MongoDB, MySQL"
+        "Typescript (Node.js, Nestjs, Nextjs, React)",
+        "Python, Flask",
+        "PostgreSQL/MySQL, MongoDB",
+        "Go (notions)",
+        "GraphQL",
+        "Développement assisté par IA (agents de code)"
       ]
     },
     {
-      "name": "Mobile Development",
-      "level": "intermediate",
+      "name": "Tests",
       "keywords": [
-        "Objective-C",
-        "Swift",
-        "Java (Android)",
-        "HTML Mobile first"
+        "TDD",
+        "Unitaires (jest/vitest)",
+        "Fonctionnels (playwright/cypress)",
+        "Performance (k6)"
       ]
     },
     {
       "name": "DevOps",
-      "level": "advanced",
       "keywords": [
         "Docker",
-        "nginx",
         "AWS",
-        "CI/CD"
+        "CI/CD (Circle CI/Github actions)"
       ]
     }
   ],
   "languages": [
     {
-      "language": "French",
+      "language": "Français",
       "fluency": "Langue maternelle"
     },
     {
-      "language": "English",
+      "language": "Anglais",
       "fluency": "C1"
+    },
+    {
+      "language": "Italien",
+      "fluency": "B1"
     }
   ],
   "interests": [
     {
-      "name": "Travels",
+      "name": "Voyages",
       "keywords": [
         "Europe",
         "Emirats Arabes Unis",
-        "United States"
+        "États-Unis"
       ]
     },
     {
@@ -229,11 +244,11 @@
     },
     {
       "name": "Laurent Cuenet (CTO) - You2You",
-      "reference": "Agile pragmatique et Qualité exemplaire. J’ai eu le plaisir de travailler avec Sébastien pendant 1 an au cours de laquelle il m'a transmis sa passion pour les méthodes agiles. Sébastien fait une énorme différence dans le niveau de notre équipe et sa productivité. Il est en permanence à la recherche d'efficacité avec l'automatisation de l'ensemble des process de production et déploiement. Une grande sensibilité à l'UX et une expérience dans le front permet à Sébastien d'être force de proposition pour améliorer le produit. J'espère pouvoir retravailler avec Sébastien dans un nouveau projet "
+      "reference": "Agile pragmatique et Qualité exemplaire. J’ai eu le plaisir de travailler avec Sébastien pendant 1 an au cours de laquelle il m'a transmis sa passion pour les méthodes agiles. Sébastien fait une énorme différence dans le niveau de notre équipe et sa productivité. Il est en permanence à la recherche d'efficacité avec l'automatisation de l'ensemble des process de production et déploiement. Une grande sensibilité à l'UX et une expérience dans le front permet à Sébastien d'être force de proposition pour améliorer le produit. J'espère pouvoir retravailler avec Sébastien dans un nouveau projet"
     },
     {
-      "name": "Mathieu Fortune (Frontend developer) - 1001pharmacies",
-      "reference": "Les projets sur lesquels nous sommes amenés à travailler ensemble au sein de 1001pharmacies me permettent de réaliser les qualités humaines et professionnelles dont Sébastien dispose. Son expertise du JavaScript, des outils front dev et son oeil avisé sur les nouvelles tendances dans le milieu sont un réel plus que j’apprécie au quotidien. Son sérieux, son sens de l’écoute et son énergie en font également un collaborateur avec qui il est agréable de travailler. "
+      "name": "Mathieu Fortune (Développeur frontend) - 1001pharmacies",
+      "reference": "Les projets sur lesquels nous sommes amenés à travailler ensemble au sein de 1001pharmacies me permettent de réaliser les qualités humaines et professionnelles dont Sébastien dispose. Son expertise du JavaScript, des outils front dev et son oeil avisé sur les nouvelles tendances dans le milieu sont un réel plus que j’apprécie au quotidien. Son sérieux, son sens de l’écoute et son énergie en font également un collaborateur avec qui il est agréable de travailler."
     },
     {
       "name": "Lou Husson (Product Owner) - You2You",
