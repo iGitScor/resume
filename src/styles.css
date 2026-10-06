@@ -1,0 +1,502 @@
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --text: #171a1f;
+  --muted: #5b6471;
+  --faint: #99a1ad;
+  --rule: #e3e6ea;
+  --accent: #2348c5;
+  --rail: 12rem;
+  --font: "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Screen only, so print and the generated PDFs always use the light palette. */
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101317;
+    --text: #e7e9ec;
+    --muted: #9ca5b1;
+    --faint: #6b7480;
+    --rule: #262b33;
+    --accent: #93b0ff;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--faint);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.page {
+  max-width: 54rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 5rem;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 450;
+}
+
+/* Masthead */
+
+.masthead {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 1.5rem;
+  align-items: start;
+}
+
+.masthead h1 {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 2.75rem);
+  font-weight: 750;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.label {
+  grid-column: 1;
+  margin: 0.4rem 0 0;
+  color: var(--accent);
+  font-size: 1.125rem;
+  font-weight: 550;
+}
+
+.contact {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.contact a {
+  color: var(--text);
+}
+
+.contact a:hover {
+  color: var(--accent);
+}
+
+.controls {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.controls a {
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.lang {
+  display: inline-flex;
+  padding: 2px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+}
+
+.lang a {
+  padding: 0.25rem 0.7rem;
+  color: var(--muted);
+}
+
+.lang a[aria-current] {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.pdf {
+  padding: calc(0.25rem + 2px) 0.9rem;
+  border: 1px solid var(--rule);
+}
+
+.pdf:hover {
+  border-color: currentColor;
+}
+
+/* Column wrappers only matter in print; on screen their sections flow as one list. */
+
+.main-col,
+.side-col {
+  display: contents;
+}
+
+/*
+ * Sections: the heading sits in a left rail, the content flows beside it.
+ * The heading stays in normal flow (one line tall, cancelled by a negative margin)
+ * so it precedes its content in the PDF text layer and pages break cleanly.
+ */
+
+section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+
+h2 {
+  width: calc(var(--rail) - 1.5rem);
+  height: 1.5rem;
+  margin: 0 0 -1.5rem;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 650;
+  line-height: 1.5rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.body {
+  margin-left: var(--rail);
+}
+
+section p {
+  margin: 0;
+}
+
+.entry + .entry {
+  margin-top: 1.5rem;
+}
+
+/* A long title wraps under itself; the dates stay on the first line, at the right. */
+.entry-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0 1rem;
+}
+
+.entry-head h3 {
+  min-width: 0;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.5rem;
+}
+
+.org {
+  color: var(--muted);
+  font-weight: 450;
+}
+
+/* Sector and city move to the next line as a whole instead of breaking mid-phrase. */
+.org .note {
+  display: inline-block;
+}
+
+.dates {
+  flex: none;
+  color: var(--muted);
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.entry > p,
+.entry > ul {
+  margin-top: 0.4rem;
+}
+
+.entry ul {
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+}
+
+.entry li + li {
+  margin-top: 0.2rem;
+}
+
+.entry li::marker {
+  color: var(--faint);
+}
+
+.pairs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem 2rem;
+  margin: 0;
+}
+
+.pairs dt {
+  font-weight: 650;
+}
+
+.pairs dd {
+  margin: 0;
+  color: var(--muted);
+}
+
+.quote {
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+}
+
+.quote + .quote {
+  margin-top: 1.5rem;
+}
+
+.quote blockquote {
+  margin: 0;
+}
+
+.quote figcaption {
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+/* Screen only: a printed page is narrower than this breakpoint but keeps the rail. */
+@media screen and (max-width: 47.99rem) {
+  .page {
+    padding: 2rem 1.25rem 3.5rem;
+  }
+
+  h2 {
+    width: auto;
+    height: auto;
+    margin-bottom: 0.75rem;
+  }
+
+  .body {
+    margin-left: 0;
+  }
+
+  .pairs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 33.99rem) {
+  .masthead {
+    grid-template-columns: 1fr;
+  }
+
+  .entry-head {
+    flex-wrap: wrap;
+  }
+
+  .masthead h1,
+  .controls {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .controls {
+    margin-bottom: 1.5rem;
+  }
+
+  .pairs {
+    grid-template-columns: 1fr;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 13mm 14mm;
+}
+
+/*
+ * The PDF is built to fit one page: no left rail, tighter spacing, and a side
+ * column for education, skills, languages and interests next to the experience.
+ * The text layer keeps the document order (experience first, then the side
+ * column), which is what resume parsers read.
+ */
+@media print {
+  html {
+    font-size: 9.5pt;
+  }
+
+  body {
+    line-height: 1.45;
+  }
+
+  .page {
+    max-width: none;
+    padding: 0;
+  }
+
+  .masthead h1 {
+    font-size: 2rem;
+  }
+
+  .label {
+    margin-top: 0.15rem;
+    font-size: 1rem;
+  }
+
+  .contact {
+    gap: 0 1.1rem;
+    margin-top: 0.6rem;
+    font-size: 0.875rem;
+  }
+
+  h2 {
+    width: auto;
+    height: auto;
+    margin-bottom: 0.5rem;
+    line-height: 1.2rem;
+  }
+
+  .body {
+    margin-left: 0;
+  }
+
+  h3 {
+    line-height: 1.45rem;
+  }
+
+  .entry + .entry {
+    margin-top: 0.75rem;
+  }
+
+  .entry > p,
+  .entry > ul {
+    margin-top: 0.2rem;
+  }
+
+  .entry li + li {
+    margin-top: 0.1rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 13rem;
+    column-gap: 1.6rem;
+    align-items: start;
+  }
+
+  .section-summary {
+    grid-column: 1 / -1;
+  }
+
+  .main-col,
+  .side-col {
+    display: block;
+  }
+
+  .side-col .pairs {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  /* Each language fits on one line: "French · Native speaker". */
+  .side-col .section-languages .pairs > div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.35rem;
+  }
+
+  /* Slightly smaller so the longest pair, "Français · Langue maternelle", stays on its line. */
+  .side-col .section-languages dd {
+    font-size: 0.875rem;
+  }
+
+  .side-col .section-languages dd::before {
+    content: "· ";
+  }
+
+  /* In the narrow column a diploma's dates sit under its title instead of beside it. */
+  .side-col .entry-head {
+    display: block;
+  }
+
+  /* ...and the school gets its own line, without the separator dot. */
+  .side-col .org {
+    display: block;
+  }
+
+  .side-col .sep {
+    display: none;
+  }
+
+  /* Text bullets stay legible at print size, unlike the default small discs. */
+  .entry li::marker {
+    content: "•  ";
+    color: var(--muted);
+  }
+
+  /*
+   * The PDF is the short version: recommendations, interests, volunteering and
+   * the bullets marked web-only stay on the website.
+   */
+  .controls,
+  .section-references,
+  .section-interests,
+  .section-volunteer,
+  .web-only {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  section {
+    margin-top: 0.9rem;
+    padding-top: 0.7rem;
+  }
+
+  /* Entries may split between bullets, but never right after their heading. */
+  h2,
+  .entry-head {
+    break-after: avoid;
+  }
+
+  .entry > p,
+  .entry li,
+  .quote,
+  .pairs > div {
+    break-inside: avoid;
+  }
+}

@@ -1,15 +1,20 @@
 {
   "name": "iscor-resume",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Full resume",
-  "main": "index.js",
+  "type": "module",
+  "private": true,
   "scripts": {
-    "start": "npm run export -s",
-    "test": "npm run test:en && npm run test:fr",
-    "test:en": "cp src/en/resume.json resume.json && resume test && rimraf resume.json",
-    "test:fr": "cp src/fr/resume.json resume.json && resume test && rimraf resume.json",
-    "export": "node index.js",
-    "deploy": "node gh-deploy.js"
+    "dev": "node --watch-path=src scripts/dev.ts",
+    "build": "node scripts/build.ts",
+    "build:pdf": "node scripts/pdf.ts",
+    "build:all": "npm run clean && npm run build && npm run build:pdf",
+    "clean": "node -e \"fs.rmSync('dist', { recursive: true, force: true })\"",
+    "test": "node --test",
+    "typecheck": "tsc"
+  },
+  "engines": {
+    "node": ">=22.18"
   },
   "repository": {
     "type": "git",
@@ -22,19 +27,15 @@
   ],
   "author": "iGitScor <sebastien.correaud@gmail.com>",
   "license": "MIT",
-  "private": true,
   "bugs": {
     "url": "https://github.com/iGitScor/resume/issues"
   },
-  "homepage": "https://github.com/iGitScor/resume#readme",
+  "homepage": "https://cv.iscor.me",
   "devDependencies": {
-    "gh-pages": "^0.12",
-    "minimist": "1.2.x",
-    "mkdirp": "0.5.x",
-    "resume-cli": "0.4.x",
-    "rimraf": "^2.5"
-  },
-  "dependencies": {
-    "jsonresume-theme-spartan": "0.2.x"
+    "@fontsource-variable/inter": "^5.3.0",
+    "@jsonresume/schema": "^1.3.1",
+    "@types/node": "^24.19.0",
+    "playwright": "^1.63.0",
+    "typescript": "^7.0.2"
   }
 }

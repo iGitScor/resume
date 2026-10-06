@@ -1,25 +1,16 @@
 {
   "basics": {
     "name": "Sebastien Correaud",
-    "label": "Lead Developer",
-    "picture": "",
+    "label": "Engineering Manager, hands-on",
     "email": "sebastien.correaud@gmail.com",
     "phone": "+33 7 83 01 41 51",
-    "website": "http://iscor.me",
-    "summary": "Motivated, teamwork-oriented, and full stack engineer having significant experience in Data analysis. I’m fascinated on how the technologies can unlock new possibilities. Possessing a Bachelors in business analytics and computer science, I build things to make life easier, full remote (from France, United Kingdom) or onsite. Native French speaker, also fluent in English.",
+    "url": "http://iscor.me",
+    "summary": "Engineering manager, hands-on. I lead a product squad at Heropay and still code. Background in testing, quality and data analysis. I build things to make life easier, full remote (France, United Kingdom) or onsite.",
     "location": {
       "address": "Paris",
-      "postalCode": "",
-      "city": "",
-      "countryCode": "",
       "region": "France"
     },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "iTweetScor",
-        "url": "https://twitter.com/iTweetScor"
-      },
       {
         "network": "Github",
         "username": "iGitScor",
@@ -34,161 +25,182 @@
   },
   "work": [
     {
-      "company": "Leeway",
-      "position": "Fullstack developer",
-      "website": "https://www.getleeway.com",
-      "startDate": "2021-08",
+      "name": "Heropay",
+      "position": "Staff Engineer",
+      "description": "Fintech",
+      "location": "Paris",
+      "startDate": "2025-01",
+      "summary": "Promoted from Senior Fullstack engineer to Staff Engineer after six months",
       "highlights": [
-        "GraphQL",
-        "NestJS",
-        "Salesforce.com development",
-        "MySQL",
-        "React.js"
+        "Line manager of up to 9 engineers. Merged two squads into one under my supervision",
+        "Strong Customer Authentication (PSD2) and anti-fraud: Signicat integration, 2 million challenges, 20k+ users enrolled",
+        "Signup to activation funnel: onboarding rebuilt as signups grew 10x in 2025; median time to activate cut from 4+ days to under 12 hours",
+        "Continued and finished the billing migration from Hyperline to an in-house system",
+        "Technical foundations: long-running tasks, SQS queues, monitoring, E2E and reliable tests, tech migrations",
+        "Introduced coding agents in the squad's daily work"
       ]
     },
     {
-      "company": "Simplifield",
-      "position": "Lead tech",
-      "website": "https://www.simplifield.com",
+      "position": "Career break",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "Twelve months of travel"
+    },
+    {
+      "name": "Tomorro (formerly Leeway)",
+      "position": "Senior Fullstack engineer",
+      "url": "https://www.tomorro.com",
+      "description": "LegalTech",
+      "location": "Paris",
+      "startDate": "2021-08",
+      "endDate": "2023-10",
+      "summary": "Early stage SaaS company",
+      "highlights": [
+        "ISO 27001 certificate: contributed, with a main part on the controls (Salesforce)",
+        "Salesforce CRM integration"
+      ]
+    },
+    {
+      "name": "Simplifield",
+      "position": "Tech lead",
+      "url": "https://www.simplifield.com",
       "startDate": "2021-03",
       "endDate": "2021-07",
       "highlights": [
-        "❐ Facilitated workshops on the design of a new import system.",
-        "❐ Performed a study on a redesign of the database using a DDD approach.",
-        "❐ Managed an Impact Team (Ukraine/France)"
+        "Managed an Impact Team of 5 developers (Ukraine/France)",
+        "Facilitated workshops on the design of a new import system."
       ]
     },
     {
-      "company": "You2You (Yper)",
-      "position": "Fullstack developer + Product Owner",
-      "website": "https://www.yper.fr",
+      "name": "You2You (Yper)",
+      "position": "Lead developer + Data analyst",
+      "url": "https://www.yper.fr",
+      "location": "Full remote from Montpellier & Oxford",
       "startDate": "2017-12",
       "endDate": "2020-11",
-      "summary": "",
+      "summary": "Real-time tracking, platform performance and data analysis",
       "highlights": [
-        "❐ Designed and developed digital solutions for stakeholders' needs in adequation with the business",
-        "❐ Coached junior colleagues as much in product creation (Agile method) as in technical learning",
-        "❐ Automatized quality control with a large panel of tests — TDD, unit tests, E2E tests, visual regression tests…",
-        "❐ Utilized MySQL and dashboard/visualization toolsets for data intelligence and analysis. ",
-        "❐ Converted data into actionable insights by predicting and modeling future outcomes. — Metabase",
-        "___________________________________________________",
-        "Created products using Lean Startup and Agile methods, product owner (January to August 2019)"
-      ]
+        "Coached junior colleagues as much in product creation (Agile method) as in technical learning",
+        "Created products using Lean Startup and Agile methods, product owner (January to August 2019)",
+        "Automated quality control with a large panel of tests — TDD, unit tests, E2E tests, visual regression tests…"
+      ],
+      "pdfHighlights": 2
     },
     {
-      "company": " University of Montpellier",
+      "name": "University of Montpellier",
       "position": "Guest lecturer",
-      "website": "",
       "startDate": "2019-02",
       "endDate": "2021-03",
-      "summary": "",
-      "highlights": [
-        "During my lectures at the University of Science at Montpellier, I taught to both bachelor and master students. I employed different supports such as powerpoint, group activities and concrete use of the tools. Here are the different goals achieved during the courses:",
-        "❐ For the Assistant project manager bachelor students and the master students, the aim was to present a global approach of the Agile method and implementing the method's techniques.",
-        "❐ For the e-business bachelor student, the objectives were to strengthen their skills in functional testings and the automation of repetitive actions."
-      ]
+      "summary": "Bachelor and Master degree, agile method and QA courses",
+      "highlights": []
     },
     {
-      "company": "1001Pharmacies",
+      "name": "1001Pharmacies",
       "position": "Fullstack developer + QA engineer",
-      "website": "http://www.1001pharmacies.com",
+      "url": "http://www.1001pharmacies.com",
+      "location": "Montpellier",
       "startDate": "2014-12",
       "endDate": "2017-11",
-      "summary": "",
+      "summary": "Rework from scratch of a high-audience marketplace",
       "highlights": [
-        "❐ Automatized functional testing in an environment close to the production — cypress.io, Docker, k6",
-        "❐ Created toolsets for performance optimization for high affluence marketplace (users, 1M€ / month)",
-        "❐ Designed and developed applications for internal needs (data visualization, tripartite billing tool) or business needs (marketplace) with recent technologies — Node.js, ES6, React & Angular",
-        "❐ Automatized quality control with a large panel of tests — TDD, unit tests, E2E tests, accessibility tests",
-        "❐ Animated agile workshops or team building. Scrum master of the product team"
-      ]
+        "Facilitated agile workshops or team building. Scrum master of the product team",
+        "Created toolsets for performance optimization for a high-traffic marketplace (users, 1M€\u00a0/\u00a0month)",
+        "Co-organized UX meetup with workshops and talks"
+      ],
+      "pdfHighlights": 0
     },
     {
-      "company": "CGI (formerly Logica)",
+      "name": "CGI (formerly Logica)",
       "position": "IT Engineer",
-      "website": "https://www.cgi.com",
+      "url": "https://www.cgi.com",
+      "location": "Montpellier",
       "startDate": "2010-06-20",
       "endDate": "2014-11-30",
       "summary": "Designed and developed mobile and web applications (PHP, JavaScript, both iOS and Android apps)",
-      "highlights": []
+      "highlights": [
+        "Security audits"
+      ],
+      "pdfHighlights": 0
     }
   ],
   "volunteer": [
     {
       "organization": "Aile Papillon",
-      "position": "Web developer",
-      "website": "",
+      "position": "Full stack developer",
       "startDate": "2014-10-03",
-      "endDate": "2022-01",
-      "summary": "",
+      "summary": "Aile Papillon is an association that helps patients with eating disorders and their families.",
       "highlights": [
-        "Aile Papillon is an association that helps patients with eating disorders and their families. This association is the initiative of the caregivers and patients of the unit of treatment of the TCA of the Clinic Stella (group Oc Santé), located at Vérargues in Hérault",
-        "❐ Design and develop new architecture (website, donation platform, secured system)",
-        "❐ SEO recommendations and Community management coaching"
+        "Design and develop new architecture (website, donation platform, secured system)"
       ]
     },
     {
       "organization": "Hack La Crise",
       "position": "Fullstack developer + designer",
-      "website": "https://twitter.com/hacklacrise",
+      "url": "https://twitter.com/hacklacrise",
       "startDate": "2020-03",
       "endDate": "2020-06",
       "summary": "Hackathon about the fight against the covid-19",
       "highlights": [
-        "Project leader for caregiver support project, development and UI/UX design",
-        "Member of the project “Des vélos pour l’hosto”, fullstack developer — Node.js, React, AWS"
+        "Project leader for caregiver support project, development and UI/UX design"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Montpellier",
-      "area": "Computer Science & E-business",
-      "studyType": "BTEC Higher National Diploma + BSc EAD",
-      "startDate": "2008-09-01",
-      "endDate": "2011-06-25",
-      "gpa": "",
-      "courses": []
+      "area": "E-Business Application Development",
+      "studyType": "BSc",
+      "startDate": "2010",
+      "endDate": "2011"
+    },
+    {
+      "institution": "University of Montpellier",
+      "area": "Computer Science",
+      "studyType": "BTEC Higher National Diploma",
+      "startDate": "2008",
+      "endDate": "2010",
+      "webOnly": true
     }
   ],
   "awards": [],
   "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "master",
+      "name": "Leadership",
       "keywords": [
-        "HTML + CSS",
-        "Javascript (Angular, React, Node.js)",
-        "Test (jest, cypress.io, selenium, loadimpact)"
+        "Line management",
+        "Hiring",
+        "Squad delivery",
+        "Scrum master",
+        "Product owner"
       ]
     },
     {
-      "name": "Data",
-      "level": "advanced",
+      "name": "Development",
       "keywords": [
-        "Python, flask",
-        "Metabase, MongoDB, MySQL"
+        "Typescript (Node.js, Nestjs, Nextjs, React)",
+        "Python, Flask",
+        "PostgreSQL/MySQL, MongoDB",
+        "Go (basics)",
+        "GraphQL",
+        "AI-assisted development (coding agents)"
       ]
     },
     {
-      "name": "Mobile Development",
-      "level": "intermediate",
+      "name": "Tests",
       "keywords": [
-        "Objective-C",
-        "Swift",
-        "Java (Android)",
-        "HTML Mobile first"
+        "TDD",
+        "Unit (jest/vitest)",
+        "Functional (playwright/cypress)",
+        "Performance (k6)"
       ]
     },
     {
       "name": "DevOps",
-      "level": "advanced",
       "keywords": [
         "Docker",
-        "nginx",
         "AWS",
-        "CI/CD"
+        "CI/CD (Circle CI/Github actions)"
       ]
     }
   ],
@@ -200,6 +212,10 @@
     {
       "language": "English",
       "fluency": "C1"
+    },
+    {
+      "language": "Italian",
+      "fluency": "B1"
     }
   ],
   "interests": [
